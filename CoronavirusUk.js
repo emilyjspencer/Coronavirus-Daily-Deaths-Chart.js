@@ -8,6 +8,8 @@ function showCoronaGraph(data, labels) {
             datasets: [{
                 label: 'Daily Coronavirus Deaths in the UK',
                 data: data,
+                borderColor: 'rgba(245, 247, 89)',
+                backgroundColor: 'rgba(156, 21, 8)',
             }]
         },
     });
